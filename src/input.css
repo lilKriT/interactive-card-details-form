@@ -8,3 +8,15 @@
     font-weight: 500;
   }
 }
+
+@layer utilities {
+  .gradientbg {
+    background-image: url("/images/bg-main-desktop.png");
+  }
+
+  @media screen and (max-width: 768px) {
+    .gradientbg {
+      background-image: url("/images/bg-main-mobile.png");
+    }
+  }
+}

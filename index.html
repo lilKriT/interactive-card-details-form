@@ -27,20 +27,32 @@
   </head>
   <body>
     <section class="min-h-screen bg-white flex">
-      <div class="w-1/4 bg-pink-500 min-h-full relative">
+      <div
+        class="w-1/4 bg-pink-500 gradientbg min-h-full grid grid-cols-1 grid-rows-1"
+      >
         <!-- Card one -->
-        <img src="./images/bg-card-front.png" class="absolute -right-1/4"></img>
-        <img src="./images/bg-card-back.png" class="absolute -right-1/2"></img>
+        <!-- <img
+          src="./images/bg-main-desktop.png"
+          alt=""
+          class="h-full w-full object-cover row-start-1"
+        /> -->
+        <div class="row-start-1">abc</div>
+        <div>cde</div>
       </div>
-      <div class="w-3">
-        <form action="#">
-          <label for="">Cardholder Name</label>
-          <input type="text" placeholder="e.g. Jane
-          Appleseed">
+      <div class="w-3/4 flex justify-center items-center">
+        <form action="#" class="flex flex-col">
+          <label for="" class="uppercase">Cardholder Name</label>
+          <input
+            type="text"
+            placeholder="e.g. Jane
+          Appleseed"
+          />
+          <label for="" class="uppercase">Card Number</label>
+          <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
         </form>
       </div>
     </section>
-    0000 0000 0000 0000 Jane Appleseed 00/00 000   Card Number e.g. 1234 5678 9123 0000 Exp. Date (MM/YY) MM YY CVC
+    0000 0000 0000 0000 Jane Appleseed 00/00 000 Exp. Date (MM/YY) MM YY CVC
     e.g. 123 Confirm
 
     <!-- Completed state start -->
