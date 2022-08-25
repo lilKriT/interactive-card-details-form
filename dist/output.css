@@ -600,6 +600,14 @@ body {
   width: 25%;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .items-center {
   align-items: center;
 }
@@ -621,4 +629,9 @@ body {
 .bg-pink-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(113 113 122 / var(--tw-bg-opacity));
 }
