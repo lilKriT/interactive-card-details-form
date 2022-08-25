@@ -4,7 +4,8 @@
   "description": "A simple website that deals with credit card details. A challenge for FrontEnd Mentor.\r Created by lilKriT.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lilKriT/interactive-card-details-form/issues"
   },
-  "homepage": "https://github.com/lilKriT/interactive-card-details-form#readme"
+  "homepage": "https://github.com/lilKriT/interactive-card-details-form#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
