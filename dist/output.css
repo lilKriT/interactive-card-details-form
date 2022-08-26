@@ -661,6 +661,18 @@ body {
   background-image: url('/images/bg-card-back.png');
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .p-4 {
   padding: 1rem;
 }
