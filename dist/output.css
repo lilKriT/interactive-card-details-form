@@ -564,6 +564,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.-mr-10 {
+  margin-right: -2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -588,6 +592,16 @@ body {
   width: 75%;
 }
 
+.translate-x-1\/4 {
+  --tw-translate-x: 25%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-1\/2 {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -602,6 +616,18 @@ body {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-xl {
@@ -629,6 +655,10 @@ body {
 
 .bg-cardFront {
   background-image: url('/images/bg-card-front.png');
+}
+
+.bg-cardBack {
+  background-image: url('/images/bg-card-back.png');
 }
 
 .p-4 {
