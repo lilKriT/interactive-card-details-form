@@ -556,28 +556,16 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
+.mt-auto {
+  margin-top: auto;
 }
 
 .flex {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
-.h-full {
-  height: 100%;
+.aspect-\[1\.82\] {
+  aspect-ratio: 1.82;
 }
 
 .min-h-screen {
@@ -592,28 +580,8 @@ body {
   width: 25%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-3\/4 {
   width: 75%;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -632,16 +600,8 @@ body {
   justify-content: space-between;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .bg-white {
@@ -649,9 +609,9 @@ body {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-pink-500 {
+.bg-emerald-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+  background-color: rgb(209 250 229 / var(--tw-bg-opacity));
 }
 
 .bg-pink-600 {
@@ -659,13 +619,8 @@ body {
   background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.p-2 {
-  padding: 0.5rem;
+.bg-gradient {
+  background-image: url('/images/bg-main-desktop.png');
 }
 
 .p-4 {
@@ -674,14 +629,4 @@ body {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.gradientbg {
-  background-image: url("/images/bg-main-desktop.png");
-}
-
-@media screen and (max-width: 768px) {
-  .gradientbg {
-    background-image: url("/images/bg-main-mobile.png");
-  }
 }
