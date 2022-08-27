@@ -55,8 +55,12 @@
           <p class="text-lg -translate-y-[4%]">000</p>
         </div>
       </div>
+
+      <!-- Right column -->
       <div class="w-3/4 flex justify-end items-center">
+        <!-- Form -->
         <form action="#" class="flex flex-col w-1/2 mr-[20%]">
+          <!-- Cardholder row -->
           <label
             for="cardholder"
             class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
@@ -68,6 +72,8 @@
             class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet"
             id="cardholder"
           />
+
+          <!-- Card number Row -->
           <label
             for=""
             class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
@@ -78,27 +84,45 @@
             placeholder="e.g. 1234 5678 9123 0000"
             class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet"
           />
-          <label
-            for=""
-            class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
-            >Exp. Date (MM/YY)</label
-          >
-          <div class="w-1/2 bg-emerald-300 flex">
-            <input
-              type="text"
-              placeholder="MM"
-              class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet flex-1"
-            />
-            <input
-              type="text"
-              placeholder="YY"
-              class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet flex-1"
-            />
+
+          <!-- Expiration date Row / Column -->
+          <div class="flex gap-2">
+            <div class="w-1/2">
+              <label
+                for=""
+                class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
+                >Exp. Date (MM/YY)</label
+              >
+              <div class="flex justify-between gap-2">
+                <input
+                  type="text"
+                  placeholder="MM"
+                  class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet w-1/2"
+                />
+                <input
+                  type="text"
+                  placeholder="YY"
+                  class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet w-1/2"
+                />
+              </div>
+            </div>
+            <!-- CVC Row / Column -->
+            <div class="w-1/2">
+              <label
+                for=""
+                class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
+                >CVC</label
+              >
+              <input
+                type="text"
+                placeholder="e.g. 123 Confirm"
+                class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet w-full"
+              />
+            </div>
           </div>
         </form>
       </div>
     </section>
-    CVC e.g. 123 Confirm
 
     <!-- Completed state start -->
 
