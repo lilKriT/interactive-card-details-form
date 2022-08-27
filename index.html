@@ -30,7 +30,7 @@
     <section class="min-h-screen bg-white flex">
       <!-- Left Column -->
       <div
-        class="w-1/4 bg-gradient min-h-full flex flex-col justify-center gap-8"
+        class="w-1/4 bg-gradient bg-cover min-h-full flex flex-col justify-center gap-8"
       >
         <!-- Card one -->
         <div
@@ -56,24 +56,45 @@
         </div>
       </div>
       <div class="w-3/4 flex justify-end items-center">
-        <form action="#" class="flex flex-col bg-pink-700 w-3/5 mr-[10%]">
+        <form action="#" class="flex flex-col w-1/2 mr-[20%]">
           <label
-            for=""
+            for="cardholder"
             class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
             >Cardholder Name</label
           >
           <input
             type="text"
             placeholder="e.g. Jane Appleseed"
-            class="border-2 rounded-lg p-2 mt-1"
+            class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet"
+            id="cardholder"
           />
-          <label for="" class="uppercase tracking-[1px]">Card Number</label>
-          <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
-          <label for="" class="uppercase tracking-[1px]"
+          <label
+            for=""
+            class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
+            >Card Number</label
+          >
+          <input
+            type="text"
+            placeholder="e.g. 1234 5678 9123 0000"
+            class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet"
+          />
+          <label
+            for=""
+            class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
             >Exp. Date (MM/YY)</label
           >
-          <input type="text" placeholder="MM" />
-          <input type="text" placeholder="YY" />
+          <div class="w-1/2">
+            <input
+              type="text"
+              placeholder="MM"
+              class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet w-1/3"
+            />
+            <input
+              type="text"
+              placeholder="YY"
+              class="border-2 rounded-lg p-2 mt-1 placeholder:text-darkGrayishViolet w-1/3"
+            />
+          </div>
         </form>
       </div>
     </section>
