@@ -600,6 +600,10 @@ body {
   margin-left: 25%;
 }
 
+.ml-\[25vw\] {
+  margin-left: 25vw;
+}
+
 .flex {
   display: flex;
 }
@@ -799,6 +803,10 @@ body {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.pl-\[25vw\] {
+  padding-left: 25vw;
 }
 
 .text-left {
