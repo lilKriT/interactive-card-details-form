@@ -18,6 +18,9 @@ module.exports = {
         cardFront: "url('/images/bg-card-front.png')",
         cardBack: "url('/images/bg-card-back.png')",
       },
+      boxShadow: {
+        highlight: "inset 0 0 25px 15px rgba(255, 255, 255, 0.3)",
+      },
     },
   },
   plugins: [],
