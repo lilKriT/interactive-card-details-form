@@ -572,6 +572,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -676,6 +680,11 @@ body {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-veryDarkViolet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(278 68% 11% / var(--tw-bg-opacity));
+}
+
 .bg-gradient {
   background-image: url('/images/bg-main-desktop.png');
 }
@@ -702,6 +711,11 @@ body {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-\[25vw\] {
