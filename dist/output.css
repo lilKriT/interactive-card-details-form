@@ -866,8 +866,16 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-1\/4 {
@@ -876,6 +884,10 @@ body {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
   }
 
   .lg\:translate-x-1\/4 {
@@ -892,8 +904,16 @@ body {
     flex-direction: row;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:bg-gradient {
     background-image: url('/images/bg-main-desktop.png');
+  }
+
+  .lg\:pl-\[25vw\] {
+    padding-left: 25vw;
   }
 }
 
