@@ -596,6 +596,10 @@ body {
   margin-top: -3rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -792,6 +796,11 @@ body {
 .text-veryDarkViolet {
   --tw-text-opacity: 1;
   color: hsl(278 68% 11% / var(--tw-text-opacity));
+}
+
+.text-red {
+  --tw-text-opacity: 1;
+  color: hsl(0 100% 66% / var(--tw-text-opacity));
 }
 
 .shadow {
