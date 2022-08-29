@@ -721,6 +721,11 @@ body {
   background-color: hsl(278 68% 11% / var(--tw-bg-opacity));
 }
 
+.bg-pink-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+}
+
 .bg-gradient {
   background-image: url('/images/bg-main-desktop.png');
 }

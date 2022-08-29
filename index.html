@@ -123,17 +123,23 @@
                 class="uppercase tracking-[1px] text-veryDarkViolet text-sm"
                 >Exp. Date (MM/YY)</label
               >
-              <div class="flex justify-between gap-2">
-                <input
-                  type="text"
-                  placeholder="MM"
-                  class="border-2 rounded-lg p-2 mt-1 text-veryDarkViolet placeholder:text-darkGrayishViolet w-1/2 focus:outline-gradientTwo"
-                />
-                <input
-                  type="text"
-                  placeholder="YY"
-                  class="border-2 rounded-lg p-2 mt-1 text-veryDarkViolet placeholder:text-darkGrayishViolet w-1/2 focus:outline-gradientTwo"
-                />
+              <div class="flex gap-2">
+                <div class="flex flex-col">
+                  <input
+                    type="text"
+                    placeholder="MM"
+                    class="border-2 rounded-lg p-2 mt-1 text-veryDarkViolet placeholder:text-darkGrayishViolet w-full focus:outline-gradientTwo"
+                  />
+                  <p class="text-red text-sm mt-2">Can't be blank</p>
+                </div>
+                <div class="flex flex-col">
+                  <input
+                    type="text"
+                    placeholder="YY"
+                    class="border-2 rounded-lg p-2 mt-1 text-veryDarkViolet placeholder:text-darkGrayishViolet w-full focus:outline-gradientTwo"
+                  />
+                  <p class="text-red text-sm mt-2">Can't be blank</p>
+                </div>
               </div>
             </div>
             <!-- CVC Row / Column -->
@@ -148,6 +154,7 @@
                 placeholder="e.g. 123 Confirm"
                 class="border-2 rounded-lg p-2 mt-1 text-veryDarkViolet placeholder:text-darkGrayishViolet w-full focus:outline-gradientTwo"
               />
+              <p class="text-red text-sm mt-2">Can't be blank</p>
             </div>
           </div>
 
