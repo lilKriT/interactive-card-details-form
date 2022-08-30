@@ -596,10 +596,6 @@ body {
   aspect-ratio: 1.82;
 }
 
-.h-1\/5 {
-  height: 20%;
-}
-
 .h-auto {
   height: auto;
 }
@@ -626,14 +622,6 @@ body {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-1\/5 {
-  width: 20%;
 }
 
 .max-w-3xl {
@@ -725,11 +713,6 @@ body {
   background-size: cover;
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -755,6 +738,10 @@ body {
   font-size: 1.8vw;
 }
 
+.text-\[1\.1vw\] {
+  font-size: 1.1vw;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -763,22 +750,6 @@ body {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[1\.6vw\] {
-  font-size: 1.6vw;
-}
-
-.text-\[1\.4vw\] {
-  font-size: 1.4vw;
-}
-
-.text-\[1\.2vw\] {
-  font-size: 1.2vw;
-}
-
-.text-\[1\.1vw\] {
-  font-size: 1.1vw;
 }
 
 .uppercase {
