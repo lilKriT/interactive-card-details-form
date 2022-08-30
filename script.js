@@ -11,6 +11,12 @@ fieldMonth = document.querySelector("#cardmonth");
 fieldYear = document.querySelector("#cardyear");
 fieldCVC = document.querySelector("#cardcvc");
 
+// default values
+const defaultName = "Jane Appleseed";
+const defaultNumber = "0000 0000 0000 0000";
+const defaultMonth = "00";
+const defaultYear = "00";
+
 for (const number of cardNumbers) {
   console.log(number.textContent);
 }
