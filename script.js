@@ -1,7 +1,8 @@
 // elements
 cardNumbers = document.querySelectorAll(".card-number");
 cardNames = document.querySelectorAll(".card-name");
-cardDates = document.querySelectorAll(".card-date");
+cardMonths = document.querySelectorAll(".card-month");
+cardYears = document.querySelectorAll(".card-year");
 cardCVCs = document.querySelectorAll(".card-cvc");
 
 // inputs
@@ -23,4 +24,24 @@ const updateCardHolder = (newName) => {
   }
 };
 
+const updateCardNumber = (newNumber) => {
+  for (const number of cardNumbers) {
+    number.textContent = newNumber || defaultNumber;
+  }
+};
+
+const updateCardMonth = (newMonth) => {
+  for (const month of cardMonths) {
+    month.textContent = newMonth || defaultMonth;
+  }
+};
+
+// const updateCardHolder = (newName) => {
+//   for (const name of cardNames) {
+//     name.textContent = newName || defaultName;
+//   }
+// };
+
 fieldHolder.addEventListener("change", (e) => updateCardHolder(e.target.value));
+fieldNumber.addEventListener("change", (e) => updateCardNumber(e.target.value));
+fieldMonth.addEventListener("change", (e) => updateCardMonth(e.target.value));
