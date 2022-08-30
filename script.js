@@ -17,10 +17,10 @@ const defaultNumber = "0000 0000 0000 0000";
 const defaultMonth = "00";
 const defaultYear = "00";
 
-for (const number of cardNumbers) {
-  console.log(number.textContent);
-}
+const updateCardHolder = (newName) => {
+  for (const name of cardNames) {
+    name.textContent = newName || defaultName;
+  }
+};
 
-const updateCardHolder = (name) => {};
-
-fieldHolder.addEventListener("change", (e) => console.log(e.target.value));
+fieldHolder.addEventListener("change", (e) => updateCardHolder(e.target.value));
