@@ -36,12 +36,13 @@ const updateCardMonth = (newMonth) => {
   }
 };
 
-// const updateCardHolder = (newName) => {
-//   for (const name of cardNames) {
-//     name.textContent = newName || defaultName;
-//   }
-// };
+const updateCardYear = (newYear) => {
+  for (const year of cardYears) {
+    year.textContent = newYear || defaultYear;
+  }
+};
 
 fieldHolder.addEventListener("change", (e) => updateCardHolder(e.target.value));
 fieldNumber.addEventListener("change", (e) => updateCardNumber(e.target.value));
 fieldMonth.addEventListener("change", (e) => updateCardMonth(e.target.value));
+fieldYear.addEventListener("change", (e) => updateCardYear(e.target.value));
